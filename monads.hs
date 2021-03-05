@@ -29,4 +29,3 @@ instance Monad Maybe where
 -- this code will error coz monad NEEDS both functors and applicatives.
 -- you cannot use a monad without a functor and an applicative
 -- so you gotta write the monad maybe2 and applicative maybe2 BEFORE the monad!
-
